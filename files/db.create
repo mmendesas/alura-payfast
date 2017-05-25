@@ -1,0 +1,22 @@
+CREATE TABLE pagamentos (
+  id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  forma_de_pagamento varchar(255) DEFAULT NULL,
+  valor decimal(10,2) DEFAULT NULL,  
+  moeda varchar(3),
+  status varchar(50),
+  data DATE,
+  descricao text);
+
+
+
+insert into pagamentos(forma_de_pagamento, valor, moeda, status, data, descricao)
+values ('payfast', 10.99, 'BRL', 'pagamento de teste 001');
+
+insert into pagamentos(forma_de_pagamento, valor, moeda, status, data, descricao)
+values ('payfast', 17.32, 'USD', 'pagamento de teste 002');
+
+insert into pagamentos(forma_de_pagamento, valor, moeda, status, data, descricao)
+values ('creditCard', 78.32, 'USD', 'pagamento de teste 003');
+
+insert into pagamentos(forma_de_pagamento, valor, moeda, status, data, descricao)
+values ('bankslip', 44.59, 'CAN', 'NONE', '2016-08-30','pagamento de teste 004');
