@@ -1,0 +1,24 @@
+{
+  "name": "alura-payfast",
+  "version": "1.0.0",
+  "description": "um gateway para pagamentos atraves de recursos http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmendesas/alura-payfast.git"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api"
+  ],
+  "author": "mmendesas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmendesas/alura-payfast/issues"
+  },
+  "homepage": "https://github.com/mmendesas/alura-payfast#readme"
+}
