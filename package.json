@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/mmendesas/alura-payfast/issues"
   },
-  "homepage": "https://github.com/mmendesas/alura-payfast#readme"
+  "homepage": "https://github.com/mmendesas/alura-payfast#readme",
+  "dependencies": {
+    "consign": "^0.1.4",
+    "express": "^4.15.3"
+  }
 }
